@@ -1,4 +1,4 @@
-﻿<Serializable()> Public Class NiObject
-    Inherits Ref
-    
+﻿Public Class NiObject
+
+   
 End Class
