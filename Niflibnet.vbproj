@@ -77,6 +77,7 @@
     <Compile Include="Footer.vb" />
     <Compile Include="Header.vb" />
     <Compile Include="indexstring.vb" />
+    <Compile Include="MatchGroup.vb" />
     <Compile Include="Matrix33.vb" />
     <Compile Include="NiAdditionalData.vb" />
     <Compile Include="NiAVObject.vb" />
@@ -112,6 +113,10 @@
     <Compile Include="NiSkinInstance.vb" />
     <Compile Include="NiSkinPartion.vb" />
     <Compile Include="NiTimeController.vb" />
+    <Compile Include="NiTriBasedGeom.vb" />
+    <Compile Include="NiTriBasedGeomData.vb" />
+    <Compile Include="NiTriShape .vb" />
+    <Compile Include="NiTriShapeData.vb" />
     <Compile Include="Ref.vb" />
     <Compile Include="TexCoord.vb" />
     <Compile Include="Types.vb" />
