@@ -64,11 +64,13 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalDataBlock.vb" />
     <Compile Include="BodyPartList .vb" />
     <Compile Include="BoundingBox.vb" />
     <Compile Include="BSDismemberSkinInstance.vb" />
     <Compile Include="BSShaderProperty .vb" />
     <Compile Include="BSShaderTextureSet.vb" />
+    <Compile Include="Color4.vb" />
     <Compile Include="Enums.vb" />
     <Compile Include="exportinfo.vb" />
     <Compile Include="Flags.vb" />
@@ -76,6 +78,7 @@
     <Compile Include="Header.vb" />
     <Compile Include="indexstring.vb" />
     <Compile Include="Matrix33.vb" />
+    <Compile Include="NiAdditionalData.vb" />
     <Compile Include="NiAVObject.vb" />
     <Compile Include="NiCollisionObject.vb" />
     <Compile Include="NiDynamicEffect.vb" />
@@ -100,6 +103,7 @@
     <Compile Include="NifStream.vb" />
     <Compile Include="NifWriter.vb" />
     <Compile Include="NiGeomtry.vb" />
+    <Compile Include="NiGeomtryData.vb" />
     <Compile Include="NiNode.vb" />
     <Compile Include="NiObject.vb" />
     <Compile Include="NiObjectNet.vb" />
@@ -109,6 +113,7 @@
     <Compile Include="NiSkinPartion.vb" />
     <Compile Include="NiTimeController.vb" />
     <Compile Include="Ref.vb" />
+    <Compile Include="TexCoord.vb" />
     <Compile Include="Types.vb" />
     <Compile Include="Vector3.vb" />
   </ItemGroup>

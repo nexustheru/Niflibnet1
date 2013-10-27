@@ -1,4 +1,4 @@
-﻿Public Class NiAVObject
+﻿<Serializable()> Public Class NiAVObject
     Inherits NiObjectNet
     Public parent As NiNode
     Public flag As Flags

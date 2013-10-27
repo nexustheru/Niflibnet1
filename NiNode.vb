@@ -1,4 +1,4 @@
-﻿Public Class NiNode
+﻿<Serializable()> Public Class NiNode
     Inherits NiAVObject
     Public Property name As String
     Public numchildren As UInteger

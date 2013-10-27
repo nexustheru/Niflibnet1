@@ -223,4 +223,9 @@
         SHADER_TILE
         SHADER_NOLIGHTING
     End Enum
+    Public Enum ConsistencyType
+        CT_MUTABLE
+        CT_STATIC
+        CT_VOLATILE
+    End Enum
 End Class
