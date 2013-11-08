@@ -122,6 +122,8 @@
     <Compile Include="NiTriShape .vb" />
     <Compile Include="NiTriShapeData.vb" />
     <Compile Include="Ref.vb" />
+    <Compile Include="SkinWeight.vb" />
+    <Compile Include="skiweight.vb" />
     <Compile Include="TexCoord.vb" />
     <Compile Include="Types.vb" />
     <Compile Include="Vector3.vb" />

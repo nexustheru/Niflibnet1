@@ -19,4 +19,13 @@
             children(lastpos + 1) = ob
         Next
     End Sub
+    Public Overloads Function asstring(verboose As Boolean) As String
+        Return Me.ToString()
+    End Function
+    Public Overloads Function returntype() As Type
+        Return Me.GetType()
+    End Function
+    Public Function clone(version As UInt32, userversion As UInt32) As NiObject
+
+    End Function
 End Class

@@ -18,6 +18,6 @@ Imports System.IO
         For ip As Integer = 0 To node.Effects.Count - 1
             MyClass.Write(node.Effects(ip).ToString)
         Next
-        
+       
     End Sub
 End Class
