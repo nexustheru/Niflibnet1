@@ -1,6 +1,6 @@
-﻿Public Class NiSkinPartion
+﻿<Serializable()> Public Class NiSkinPartion
     Inherits NiObject
     Public numskinpartionblocks As UInteger
-    Public skinpartionblock As Generic.List(Of NiSkinPartion)
+    Public skinpartionblock() As NiSkinPartion
     Friend NiTriBasedGeom
 End Class

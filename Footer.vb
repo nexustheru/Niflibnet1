@@ -1,5 +1,5 @@
-﻿Public Class Footer
+﻿<Serializable()> Public Class Footer
     Public numroot As UInteger
-    Public root As Generic.List(Of String)
-   
+    Public root() As String
+
 End Class

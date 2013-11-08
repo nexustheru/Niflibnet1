@@ -1,4 +1,4 @@
-﻿Public Class exportinfo
+﻿<Serializable()> Public Class exportinfo
     Public uknown As UInteger
     Public creator As Char()
     Public exportinfo1 As Byte

@@ -1,4 +1,4 @@
-﻿Public Class NiTriShape
+﻿<Serializable()> Public Class NiTriShape
     Inherits NiTriBasedGeom
 
 End Class

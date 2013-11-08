@@ -48,6 +48,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -68,6 +69,7 @@
     <Compile Include="BodyPartList .vb" />
     <Compile Include="BoundingBox.vb" />
     <Compile Include="BSDismemberSkinInstance.vb" />
+    <Compile Include="BSShaderLightingProperty .vb" />
     <Compile Include="BSShaderProperty .vb" />
     <Compile Include="BSShaderTextureSet.vb" />
     <Compile Include="Color4.vb" />
@@ -79,11 +81,13 @@
     <Compile Include="indexstring.vb" />
     <Compile Include="MatchGroup.vb" />
     <Compile Include="Matrix33.vb" />
+    <Compile Include="matrix44.vb" />
     <Compile Include="NiAdditionalData.vb" />
     <Compile Include="NiAVObject.vb" />
     <Compile Include="NiCollisionObject.vb" />
     <Compile Include="NiDynamicEffect.vb" />
     <Compile Include="NiExtraData.vb" />
+    <Compile Include="NifInfo .vb" />
     <Compile Include="Niflibnet.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

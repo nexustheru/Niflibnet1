@@ -1,4 +1,4 @@
-﻿Public Class BodyPartList
+﻿<Serializable()> Public Class BodyPartList
     Public partflag As Enums.BodyPartslist
-    Public bodypart As Generic.List(Of Enums.BodyPartslist)
+    Public bodypart() As Enums.BodyPartslist
 End Class

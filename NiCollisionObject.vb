@@ -1,3 +1,3 @@
-﻿Public Class NiCollisionObject
+﻿<Serializable()> Public Class NiCollisionObject
     Public Target As Integer
 End Class

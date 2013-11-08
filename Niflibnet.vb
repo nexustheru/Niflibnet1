@@ -1,6 +1,6 @@
 ﻿Imports System
 Imports System.Runtime.InteropServices
-Public Class Niflibnet
+<Serializable()> Public Class Niflibnet
     Public Function NiAv_to_niOb(from_av As NiAVObject, to_ob As NiObject)
         Dim intp As IntPtr = Marshal.AllocHGlobal(Marshal.SizeOf(from_av))
         Marshal.StructureToPtr(from_av, intp, False)

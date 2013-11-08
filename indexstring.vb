@@ -1,3 +1,3 @@
-﻿Public Class indexstring
-    Public IndexString As Generic.List(Of indexstring)
+﻿<Serializable()> Public Class indexstring
+    Public IndexString() As indexstring
 End Class

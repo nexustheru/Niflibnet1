@@ -1,9 +1,9 @@
-﻿Public Class NiGeomtry
+﻿<Serializable()> Public Class NiGeomtry
     Inherits NiAVObject
     Public data As Generic.List(Of NiObject)
-    Public skininstance As Generic.List(Of NiSkinInstance)
+    Public skininstance() As NiSkinInstance
     Public nummaterials As UInteger
-    Public materialname As Generic.List(Of IndexString)
+    Public materialname() As indexstring
     Public activematerial As Integer
     Public hasshader As Boolean
     Public shadername As indexstring

@@ -1,4 +1,4 @@
-﻿Public Class BoundingBox
+﻿<Serializable()> Public Class BoundingBox
     Public unknownint As UInteger
     Public Translation As Vector3
     Public Rotation As Matrix33

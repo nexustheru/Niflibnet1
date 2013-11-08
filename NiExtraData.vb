@@ -1,6 +1,6 @@
-﻿Public Class NiExtraData
+﻿<Serializable()> Public Class NiExtraData
     Inherits NiObject
     Public name As indexstring
-    Public nextExtraData As Generic.List(Of NiExtraData)
+    Public nextExtraData() As NiExtraData
 
 End Class

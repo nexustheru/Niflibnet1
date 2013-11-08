@@ -1,5 +1,5 @@
 ﻿Imports System.Runtime.InteropServices
-Public Class Ref
+<Serializable()> Public Class Ref
     Inherits MarshalByRefObject
     Private NiObjectReference As NiObject
     Private NiAVObjectReference As NiAVObject

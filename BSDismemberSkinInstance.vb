@@ -1,5 +1,5 @@
-﻿Public Class BSDismemberSkinInstance
+﻿<Serializable()> Public Class BSDismemberSkinInstance
     Inherits NiSkinInstance
     Public numpartions As Integer
-    Public partions As Generic.List(Of BodyPartList)
+    Public partions() As BodyPartList
 End Class

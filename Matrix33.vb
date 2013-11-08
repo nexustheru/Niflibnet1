@@ -1,4 +1,4 @@
-﻿Public Class Matrix33
+﻿<Serializable()> Public Class Matrix33
     Public m11 As Single
     Public m12 As Single
     Public m13 As Single

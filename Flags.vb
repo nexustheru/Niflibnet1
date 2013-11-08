@@ -1,3 +1,3 @@
-﻿Public Class Flags
+﻿<Serializable()> Public Class Flags
     Public Flag As Int16
 End Class

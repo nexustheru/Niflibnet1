@@ -1,4 +1,4 @@
-﻿Public Class BSShaderProperty
+﻿<Serializable()> Public Class BSShaderProperty
     Inherits NiProperty
     Public flag As Flags
     Public shadertype As Enums.BSShaderType
